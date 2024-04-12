@@ -1,0 +1,60 @@
+body {
+    font-family:cursive;
+    background-color: #f9dbe6; /* Pastellrosa Hintergrundfarbe */
+    color: #ffffff; /* Standardtextfarbe */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f4adc6; /* Pastellrosa Header-Hintergrundfarbe */
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav {
+    background-color: #f4adc6; /* Pastellrosa Navbar-Hintergrundfarbe */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff; /* Textfarbe für Navigationslinks */
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+article {
+    background-color: #ffcee3; /* Pastellrosa Hintergrundfarbe für Blog-Einträge */
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.milk {
+    margin-left: 480px;
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
